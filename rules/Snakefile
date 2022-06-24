@@ -1,0 +1,16 @@
+from snakemake.utils import min_version
+
+configfile: "./config/config.yaml"
+
+
+
+include: "common.smk",
+include: "preprocess.smk",
+include:"cnv.smk"
+
+rule all:
+    input:
+        #expand(os.path.join(config["output_dir"], "file_rename/{sample}"), sample=["EGAN00001270184"]),
+        expand(os.path.join(config["output_dir"], "cnv/reference/{sample}.cnn"), sample=["EGAN00001270184"])
+
+

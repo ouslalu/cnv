@@ -1,0 +1,16 @@
+
+patient_metadata: "/Users/olalekanusman/Desktop/PhD/Orgnoid_Project/yates_CNV_after_merging/config/metadata.csv"
+
+input_dir: "/Users/olalekanusman/Desktop/PhD/Orgnoid_Project/yates_CNV_after_merging/input"
+
+output_dir: "/Users/olalekanusman/Desktop/PhD/Orgnoid_Project/yates_CNV_after_merging/output"
+
+log_dir: "/Users/olalekanusman/Desktop/PhD/Orgnoid_Project/yates_CNV_after_merging/logs"
+
+genome: "/Users/olalekanusman/Desktop/hg19_genome/hg19.fa"
+
+average_target_size: 10000
+
+annotation: "/Users/olalekanusman/Desktop/hg19_genome/refFlat.txt"
+
+threads: 12

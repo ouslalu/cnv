@@ -1,0 +1,12 @@
+*
+!rules/*
+!config/*yaml
+!config
+!rules
+!rules/*
+!README.md
+!.gitignore
+!LICENSE
+!envs
+!envs/*
+!environment.yaml
