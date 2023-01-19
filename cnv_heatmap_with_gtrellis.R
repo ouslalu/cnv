@@ -16,7 +16,7 @@ library(ComplexHeatmap)
 library(gtrellis)
 
 #change working directory to where my files are 
-setwd("/Users/olalekanusman/Desktop/PhD/Orgnoid_Project/troubleshooting_the_cnvkit_with_different_target_size/bin_size_100000")
+setwd("/location/troubleshooting_the_cnvkit_with_different_target_size/bin_size_100000")
 
 #read in all the files and add a column that calculates the absolutes copy number.
 pd5956a  <- read.csv("EGAN00001037943.cnr.txt", sep = "\t") %>% mutate(absolute_cn = 2 * (2**log2))
